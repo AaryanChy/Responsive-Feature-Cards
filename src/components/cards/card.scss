@@ -1,0 +1,31 @@
+@use "../../scss/colors.scss";
+.card-Component {
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 65px;
+  padding: 20px;
+}
+
+.card-Component.team {
+  border-top: 5px solid colors.$primary-red;
+}
+.card-Component.karma {
+  border-top: 5px solid colors.$primary-Orange;
+  margin-top: 20px;
+}
+
+.card-Component.supervisor {
+  border-top: 5px solid colors.$primary-Cyan;
+}
+
+.card-Component.calculator {
+  border-top: 5px solid colors.$primary-Blue;
+}
+
+.description {
+  color: colors.$Grayish-Blue;
+  font-size: 13px;
+  margin-top: -10px;
+}

@@ -1,0 +1,16 @@
+.card-Container {
+  width: 1210px;
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// .inner-container1 {
+//   width: 350px;
+// }
+.inner-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
